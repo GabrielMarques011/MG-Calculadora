@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">MG Calculator</string>
+    <string name="salarioBruto">Salário Bruto</string>
+    <string name="dependentes">Numero de dependentes</string>
+<!--    <string name="plano">Plano saúde</string>-->
+<!--    <string name="valeTransporte">Vale Transporte (Sim/Não)</string>-->
+<!--    <string name="valeAlimentacao">Vale Alimentação (Sim/Não)</string>-->
+<!--    <string name="valeRefeicao">Vale Refeição (Sim/Não)</string>-->
+    <string name="btnCalcular">Calcular Salario</string>
+    <string name="campoVazio">Campo Vazio</string>
+
+    <string-array name="duvidaPlano">
+        <item>Qual é o seu Plano de Saúde</item>
+        <item>Standard</item>
+        <item>Básico</item>
+        <item>Super</item>
+        <item>Master</item>
+    </string-array>
+
+    <string-array name="duvidaTransporte">
+        <item>Você Tem Vale Transporte?</item>
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+
+    <string-array name="duvidaAlimentacao">
+        <item>Você Tem Vale Alimentação?</item>
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+
+    <string-array name="duvidaRefeicao">
+        <item>Você Tem Vale Refeição?</item>
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+
+
+</resources>

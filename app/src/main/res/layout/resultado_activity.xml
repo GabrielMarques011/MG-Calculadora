@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="0dp"
+    android:layout_marginBottom="0dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PageResultado">
+
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:background="#606060"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageView
+            android:layout_width="113dp"
+            android:layout_height="114dp"
+            android:layout_marginLeft="136dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/mgimg" />
+
+        <EditText
+            android:id="@+id/vlSalarioBruto"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/border"
+            android:textColor="@color/black"
+            android:padding="5dp"
+            />
+
+        <EditText
+            android:id="@+id/vlPlanoSaude"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/border"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:padding="5dp"/>
+
+        <EditText
+            android:id="@+id/vlValeRefeicao"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/border"
+            android:textColor="@color/black"
+            android:padding="5dp"/>
+
+
+        <EditText
+            android:id="@+id/vlValeAlimentacao"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/border"
+            android:textColor="@color/black"
+            android:padding="5dp"/>
+
+        <EditText
+            android:id="@+id/vlValeTransporte"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/border"
+            android:textColor="@color/black"
+            android:padding="5dp"/>
+
+        <EditText
+            android:id="@+id/vlInss"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/border"
+            android:textColor="@color/black"
+            android:padding="5dp"/>
+
+        <EditText
+            android:id="@+id/vlIrrf"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/border"
+            android:textColor="@color/black"
+            android:padding="5dp"/>
+
+        <EditText
+            android:id="@+id/vlporcentagemDesconto"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/border"
+            android:textColor="@color/black"
+            android:padding="5dp"/>
+
+        <EditText
+            android:id="@+id/vlSalarioLiq"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/border"
+            android:textColor="@color/black"
+            android:padding="5dp"/>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
+
+</ScrollView>

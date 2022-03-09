@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.matheus.gabriel.calculadoradosalarioliquido">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Always include this permission -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- Include only if your app benefits from precise location access. -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CalculadoraDoSalarioLiquido">
+        <service
+            android:name="MainActivity"
+            android:foregroundServiceType="location"
+            tools:ignore="Instantiatable">
+        <!-- Any inner elements would go here. -->
+    </service>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity  android:name=".PageResultado"
+            android:exported="true">
+
+        </activity>
+    </application>
+
+
+</manifest>

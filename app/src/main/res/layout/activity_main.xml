@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="0dp"
+    android:layout_marginBottom="0dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    >
+
+<android.support.constraint.ConstraintLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="731dp"
+    android:orientation="vertical"
+    android:background="#606060"
+    app:layout_constraintBottom_toBottomOf="parent"
+    >
+
+    <ImageView
+        android:layout_width="113dp"
+        android:layout_height="114dp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/mgimg" />
+
+    <EditText
+        android:id="@+id/salario_bruto"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="40dp"
+        android:background="#D9D7D8"
+        android:hint="@string/salarioBruto"
+        android:inputType="number"
+        android:paddingLeft="5dp"
+        android:textColorHint="#2B2A2A"
+        />
+
+    <EditText
+        android:id="@+id/dependentes"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:background="#D9D7D8"
+        android:hint="@string/dependentes"
+        android:inputType="number"
+        android:paddingLeft="5dp"
+        android:textColorHint="#303030"/>
+
+    <!--<EditText
+        android:id="@+id/plano"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/plano"
+        android:paddingLeft="5dp"
+        android:background="#D9D7D8"
+        android:textColorHint="#65940E"
+        />-->
+
+    <Spinner
+        android:id="@+id/plano"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:entries="@array/duvidaPlano"
+        android:background="#D9D7D8"
+        android:spinnerMode="dialog"/>
+
+    <!--<EditText
+        android:id="@+id/vale_trans"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/valeTransporte"
+        android:paddingLeft="5dp"
+        android:background="#D9D7D8"
+        android:textColorHint="#65940E"
+        />-->
+
+    <Spinner
+        android:id="@+id/vale_refe"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:entries="@array/duvidaRefeicao"
+        android:spinnerMode="dialog"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#D9D7D8"/>
+
+    <!--<EditText
+        android:id="@+id/vale_alim"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/valeAlimentacao"
+        android:paddingLeft="5dp"
+        android:background="#D9D7D8"
+        android:textColorHint="#65940E"
+        />-->
+
+    <Spinner
+        android:id="@+id/vale_alim"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:entries="@array/duvidaAlimentacao"
+        android:spinnerMode="dialog"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#D9D7D8"/>
+
+    <!--<EditText
+        android:id="@+id/vale_refe"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="Vale Refeição (Sim/Não)"
+        android:paddingLeft="5dp"
+        android:background="#D9D7D8"
+        android:textColorHint="#65940E"
+        />-->
+
+    <Spinner
+        android:id="@+id/vale_trans"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:entries="@array/duvidaTransporte"
+        android:spinnerMode="dialog"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#D9D7D8"/>
+
+    <Button
+        android:id="@+id/btn_calcular"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="40dp"
+        android:text="@string/btnCalcular"
+        android:textColor="#65940E"
+        android:background="@drawable/border"
+        />
+
+
+</LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
